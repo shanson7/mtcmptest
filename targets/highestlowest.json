@@ -1,0 +1,18 @@
+{
+  "highest(5, average)":
+    "highest(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),5,'average')",
+  "highestAverage(5)":
+    "highestAverage(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),5)",
+  "highestCurrent(5)":
+    "highestCurrent(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),5)",
+  "highestMax(5)":
+    "highestMax(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),5)",
+  "lowest(5, average)":
+    "lowest(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),5,'average')",
+  "lowestAverage(5)":
+    "lowestAverage(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),5)",
+  "lowestCurrent(5)":
+    "lowestCurrent(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),5)",
+  "highestMax(5)(no cluster)":
+    "highestMax(seriesByTag('namespace=os','name=cpu.percent.idle.g'),20)"
+}

@@ -1,0 +1,22 @@
+{
+  "scaleToSeconds(0)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),0)",
+  "scaleToSeconds(0.0001)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),0.0001)",
+  "scaleToSeconds(0.0002)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),0.0001)",
+  "scaleToSeconds(0.5)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),0.5)",
+  "scaleToSeconds(1)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),1)",
+  "scaleToSeconds(30)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),30)",
+  "scaleToSeconds(1000)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),1000)",
+  "scaleToSeconds(9223372036854774784)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),9223372036854774784)",
+  "scaleToSeconds(0.12345678901234567890)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),0.12345678901234567890)",
+  "scaleToSeconds(0.00000000000000000001)":
+    "scaleToSeconds(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.writes.completed.g'),0.00000000000000000001)"
+}

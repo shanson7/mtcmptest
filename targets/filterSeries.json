@@ -1,0 +1,14 @@
+{
+  "filterSeries(average,=,0.1)":
+    "filterSeries(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g'),'average','=',0.1)",
+  "filterSeries(average,!=,0.1)":
+    "filterSeries(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g'),'average','!=',0.1)",
+  "filterSeries(average,<,0.1)":
+    "filterSeries(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g'),'average','<',0.1)",
+  "filterSeries(average,<=,0.1)":
+    "filterSeries(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g'),'average','<=',0.1)",
+  "filterSeries(average,>,0.1)":
+    "filterSeries(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g'),'average','>',0.1)",
+  "filterSeries(average,>=,0.1)":
+    "filterSeries(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g'),'average','>=',0.1)"
+}

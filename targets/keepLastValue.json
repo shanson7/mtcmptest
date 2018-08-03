@@ -1,0 +1,16 @@
+{
+  "keepLastValue(0)":
+    "keepLastValue(seriesByTag('cluster=alrtdl','name=FileParser.NumLinesParsed.count.c.count'),0)",
+  "keepLastValue(1)":
+    "keepLastValue(seriesByTag('cluster=alrtdl','name=FileParser.NumLinesParsed.count.c.count'),1)",
+  "keepLastValue(2)":
+    "keepLastValue(seriesByTag('cluster=alrtdl','name=FileParser.NumLinesParsed.count.c.count'),2)",
+  "keepLastValue(5)":
+    "keepLastValue(seriesByTag('cluster=alrtdl','name=FileParser.NumLinesParsed.count.c.count'),5)",
+  "keepLastValue(10)":
+    "keepLastValue(seriesByTag('cluster=alrtdl','name=FileParser.NumLinesParsed.count.c.count'),10)",
+  "keepLastValue()":
+    "keepLastValue(seriesByTag('cluster=alrtdl','name=FileParser.NumLinesParsed.count.c.count'))",
+  "keepLastValue(INF)":
+    "keepLastValue(seriesByTag('cluster=alrtdl','name=FileParser.NumLinesParsed.count.c.count'),'INF')"
+}

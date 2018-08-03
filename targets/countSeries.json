@@ -1,0 +1,3 @@
+{
+  "countSeries()": "countSeries(seriesByTag('cluster=alrtdl'))"
+}
