@@ -1,6 +1,6 @@
 {
   "removeAboveValue(0.075)":
-    "removeAboveValue(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g','diskName=dm-0'),0.075)",
+    "removeAboveValue(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g'),0.075)",
   "removeBelowValue(0.075)":
-    "removeBelowValue(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g','diskName=dm-0'),0.075)"
+    "removeBelowValue(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.service.time.g'),0.075)"
 }

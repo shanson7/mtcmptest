@@ -1,0 +1,9 @@
+{
+  "asPercent(None, node)": "sortByName(asPercent(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0'),None,1))",
+  "asPercent(None, nodes)": "sortByName(asPercent(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0'),None,0,1))",
+  "asPercent(None, name)": "sortByName(asPercent(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0'),None,'name'))",
+  "asPercent(series, node)": "sortByName(asPercent(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0'),seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),1))",
+  "asPercent(series, node2)": "sortByName(asPercent(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.average.latency.g'),seriesByTag('cluster=alrtdl','namespace=os'),1))",
+  "asPercent(series, nodes)": "sortByName(asPercent(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.average.latency.g'),seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),0,1))",
+  "asPercent(series, name)": "sortByName(asPercent(seriesByTag('cluster=alrtdl','namespace=os','diskName=dm-0','name=disk.average.latency.g'),seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),'name'))"
+}

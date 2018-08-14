@@ -1,0 +1,4 @@
+{
+  "derivative":
+    "nonNegativeDerivative(seriesByTag('cluster=cfrmpd','namespace=dldataacq','name=getdata.calcrt.duration.d.count'))"
+}

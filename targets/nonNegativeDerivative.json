@@ -1,0 +1,6 @@
+{
+  "no-max":
+    "nonNegativeDerivative(seriesByTag('cluster=cfrmpd','namespace=dldataacq','name=getdata.calcrt.duration.d.count'))",
+  "with-max":
+    "nonNegativeDerivative(seriesByTag('cluster=cfrmpd','namespace=dldataacq','name=getdata.calcrt.duration.d.count'),400)"
+}

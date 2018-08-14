@@ -1,0 +1,8 @@
+{
+  "sortBy-current": "sortBy(seriesByTag('cluster=cfrmpd'),'current',false)",
+  "sortBy-current-reverse": "sortBy(seriesByTag('cluster=cfrmpd'),'current',true)",
+  "sortBy-average": "sortBy(seriesByTag('cluster=cfrmpd'),'average',false)",
+  "sortBy-average-reverse": "sortBy(seriesByTag('cluster=cfrmpd'),'average',true)",
+  "sortByMaxima": "sortByMaxima(seriesByTag('cluster=cfrmpd'))",
+  "sortByTotal": "sortByTotal(seriesByTag('cluster=cfrmpd'))"
+}

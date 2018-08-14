@@ -1,0 +1,14 @@
+{
+  "removeAbovePercentile(1)":
+    "removeAbovePercentile(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),1)",
+  "removeAbovePercentile(50)":
+    "removeAbovePercentile(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),50)",
+  "removeAbovePercentile(100)":
+    "removeAbovePercentile(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),100)",
+  "removeBelowPercentile(1)":
+    "removeBelowPercentile(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),1)",
+  "removeBelowPercentile(50)":
+    "removeBelowPercentile(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),50)",
+  "removeBelowPercentile(100)":
+    "removeBelowPercentile(seriesByTag('cluster=alrtdl','namespace=os','name=disk.average.latency.g'),100)"
+}
