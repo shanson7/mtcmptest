@@ -70,8 +70,6 @@ func main() {
 		}
 		if *speed {
 			fmt.Printf("\n===== Running Speed Test on %s =====\n", filen)
-			rate := uint64(5) // per second
-			duration := 120 * time.Second
 			var vegetaTargetsNative []vegeta.Target
 			var vegetaTargetsProxy []vegeta.Target
 			for _, target := range targets {
@@ -94,8 +92,11 @@ func main() {
 			var metricsNative vegeta.Metrics
 			var metricsProxy vegeta.Metrics
 
-			resultNative := attackerNative.Attack(targeterNative, rate, duration, filen)
-			resultProxy := attackerProxy.Attack(targeterProxy, rate, duration, filen)
+			duration := 120 * time.Second
+			pacer := vegeta.ConstantPacer{Freq: 5, Per: time.Second} // 5 per second
+
+			resultNative := attackerNative.Attack(targeterNative, pacer, duration, filen)
+			resultProxy := attackerProxy.Attack(targeterProxy, pacer, duration, filen)
 
 			for res := range resultNative {
 				metricsNative.Add(res)
