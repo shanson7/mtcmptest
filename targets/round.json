@@ -1,0 +1,8 @@
+{
+    "round()": "round(seriesByTag('namespace=os','name=cpu.percent.idle.g','parentCluster=tlmtry'))",
+    "round(3)": "round(seriesByTag('namespace=os','name=cpu.percent.idle.g','parentCluster=tlmtry'),3)",
+    "round(30)": "round(seriesByTag('namespace=os','name=cpu.percent.idle.g','parentCluster=tlmtry'),30)",
+    "round(300)": "round(seriesByTag('namespace=os','name=cpu.percent.idle.g','parentCluster=tlmtry'),300)",
+    "round(300000000000)": "round(seriesByTag('namespace=os','name=cpu.percent.idle.g','parentCluster=tlmtry'),300000000000)",
+    "overflow": "round(scale(seriesByTag('namespace=os','name=cpu.percent.idle.g','parentCluster=tlmtry'),10000000000000000525047602552044202487044685811081591549158541155118024579889081957863713750804478640437044438328838781769425232353604305756447921847867069828483872009265758037378302337947880900593689532349707999450811190389676408800746527427801424945792587888200568428381156694721963868654594005401600.0),17)"
+}
