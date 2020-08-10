@@ -1,0 +1,14 @@
+{
+    "movingSum('1min', 0)":
+      "movingSum(seriesByTag('namespace=aggrocrag','cluster=mt_docker','name=request.queueingDelay.time.sec.y.min'),'1min')",
+    "movingSum('600s', 0)":
+      "movingSum(seriesByTag('namespace=aggrocrag','cluster=mt_docker','name=request.queueingDelay.time.sec.y.min'),'600s')",
+    "movingAverage('1min', 0)":
+      "movingAverage(seriesByTag('namespace=aggrocrag','cluster=mt_docker','name=request.queueingDelay.time.sec.y.min'),'1min')",
+    "movingAverage('600s', 0)":
+      "movingAverage(seriesByTag('namespace=aggrocrag','cluster=mt_docker','name=request.queueingDelay.time.sec.y.min'),'600s')",
+    "movingMin('1min', 0)":
+      "movingMin(seriesByTag('namespace=aggrocrag','cluster=mt_docker','name=request.queueingDelay.time.sec.y.min'),'1min')",
+    "movingMin('600s', 0)":
+      "movingMin(seriesByTag('namespace=aggrocrag','cluster=mt_docker','name=request.queueingDelay.time.sec.y.min'),'600s')"
+}
